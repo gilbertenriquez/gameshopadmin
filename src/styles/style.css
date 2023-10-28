@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  margin: 0;
+}
+
+#dashboard a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#login #one {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+#login #two {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+#login #two form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+#login #two form .container {
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#login #two form .container input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+#login #two form .container button {
+  border-radius: 0px;
+}
+#login #admin {
+  font-family: "Ubuntu", sans-serif;
+}
+#login #admin .form-control {
+  gap: 10px;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
