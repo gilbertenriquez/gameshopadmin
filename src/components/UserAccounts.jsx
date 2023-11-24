@@ -36,7 +36,6 @@ export default function UserAccounts() {
     fetchData();
   
     return () => {
-      // Cleanup any event listeners or subscriptions if needed
     };
   }, []);
 
