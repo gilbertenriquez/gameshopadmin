@@ -1,11 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 body {
+  overflow: hidden;
   margin: 0;
 }
 
-#dashboard a {
-  color: whitesmoke;
-  text-decoration: none;
+#dashboard .row {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#dashboard .row ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+#dashboard .row ul li {
+  list-style: none;
+}
+#dashboard #viewInfo p {
+  font-weight: 700;
 }
 
 #login {

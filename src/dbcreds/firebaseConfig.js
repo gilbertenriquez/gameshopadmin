@@ -1,13 +1,14 @@
 import { initializeApp } from "firebase/app";
-import {getDatabase} from "firebase/database";
+import { getDatabase } from "firebase/database";
 const firebaseConfig = {
-  apiKey: "AIzaSyD87ruvsmZWekQCPyaChBumV9ma9iaWAkY",
-  authDomain: "gameshopdb.firebaseapp.com",
-  databaseURL: "https://gameshopdb-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "gameshopdb",
-  storageBucket: "gameshopdb.appspot.com",
-  messagingSenderId: "1052802931435",
-  appId: "1:1052802931435:web:f9dc667f6862e43ee8bcae"
+  apiKey: "AIzaSyDkunRqHTm1yzzAy59rU_1m9GSxOZkzpoA",
+  authDomain: "gameshopdb-f4df3.firebaseapp.com",
+  databaseURL: "https://gameshopdb-f4df3-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "gameshopdb-f4df3",
+  storageBucket: "gameshopdb-f4df3.appspot.com",
+  messagingSenderId: "60622922093",
+  appId: "1:60622922093:web:4dc4cc33c16ac43d5fba64",
+  measurementId: "G-HX3FYB2YX2"
 };
 const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);

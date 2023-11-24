@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 $font1: 'Ubuntu', sans-serif;
 body{
+    overflow: hidden;
     margin: 0;
 }
 #dashboard{
-    a{
-        color: whitesmoke;
-        text-decoration: none;
+    .row{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    #viewInfo{
+        p{
+            font-weight: 700;
+        }
     }
 }
 #login{
