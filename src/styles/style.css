@@ -75,4 +75,38 @@ body {
 #login #admin .form-control {
   gap: 10px;
   display: flex;
+}
+
+#sellerImages #ModalImages #supportImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+#sellerImages #ModalImages #supportImages a {
+  text-decoration: none;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+#sellerImages #ModalImages ul li {
+  list-style: none;
+}
+#sellerImages #ModalImages ul hr {
+  font-weight: 500;
+}
+#sellerImages #mainImage a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#userInfo .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#verify td a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
